@@ -1,0 +1,26 @@
+{
+    "name": "dokuwiki",
+    "displayName": "DokuWiki",
+    "description": "Syntax highlighting for DokuWiki markup",
+    "version": "0.0.1",
+    "publisher": "kirozen",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "dokuwiki",
+            "aliases": ["DokuWiki", "dokuwiki"],
+            "extensions": [".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "dokuwiki",
+            "scopeName": "text.html.dokuwiki",
+            "path": "./syntaxes/dokuwiki.tmLanguage"
+        }]
+    }
+}
