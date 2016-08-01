@@ -2,7 +2,7 @@
     "name": "dokuwiki",
     "displayName": "DokuWiki",
     "description": "Syntax highlighting for DokuWiki markup",
-    "version": "0.0.1",
+    "version": "1.1.0",
     "publisher": "kirozen",
     "engines": {
         "vscode": "^1.0.0"
