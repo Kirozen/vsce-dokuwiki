@@ -12,3 +12,7 @@ Initial release of Dokuwiki extension. Based on original file.
 ### 1.1.0
 
 Added file tag support.
+
+### 1.1.1
+
+Small tweaks.
