@@ -339,6 +339,37 @@
 			<key>name</key>
 			<string>markup.raw.dokuwiki</string>
 		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(&lt;)(file)(?:\s+[^&gt;]*)?(&gt;)</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>meta.tag.template.file.dokuwiki</string>
+				</dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.tag.dokuwiki</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.tag.dokuwiki</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.tag.dokuwiki</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(&lt;/)(file)(&gt;)</string>
+			<key>name</key>
+			<string>markup.raw.dokuwiki</string>
+		</dict>
 	</array>
 	<key>repository</key>
 	<dict>
