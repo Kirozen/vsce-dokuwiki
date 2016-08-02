@@ -16,3 +16,7 @@ Added file tag support.
 ### 1.1.1
 
 Small tweaks.
+
+### 1.4.0
+
+Add .dokuwiki file extension (better than .txt)

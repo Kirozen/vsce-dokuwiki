@@ -2,7 +2,7 @@
     "name": "dokuwiki",
     "displayName": "DokuWiki",
     "description": "Syntax highlighting for DokuWiki markup",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "publisher": "kirozen",
     "icon": "logo/dokuwiki-logo.svg",
     "engines": {
@@ -20,7 +20,8 @@
                     "dokuwiki"
                 ],
                 "extensions": [
-                    ".txt"
+                    ".txt",
+                    ".dokuwiki"
                 ],
                 "configuration": "./language-configuration.json"
             }
